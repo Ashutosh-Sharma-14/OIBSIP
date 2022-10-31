@@ -1,0 +1,101 @@
+
+img{
+    width: 100px;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; 
+    margin-top: 150px;
+}
+
+.inner-background{
+    background: rgba(185, 185, 99, 0.84);
+    margin-left: 60px;
+    margin-right: 60px;
+    border: 2px solid #ba3340;
+    border-radius: 3%;
+}
+
+.contents{
+    width: 700px;
+    height: 600px;
+    border: 2px solid black;
+    border-radius: 3%;
+    display: flex;
+    background-color: rgba(252, 252, 158, 0.84);
+    flex-direction: column;
+    text-align: center;
+}
+
+.title{
+    margin-top: 50px;
+    /* border: 1px solid;
+    border-color: #b02a37;
+    background: #ba3340;
+    color: white;
+    border-radius: 5px; */
+}
+
+.select-temp-unit{
+    margin-top: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.take-input{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: auto;
+}
+
+.inp{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.select-temp1, .select-temp2{
+    width: 250px;
+}
+
+.input-temp1, .input-temp2{
+    width: 240px;
+}
+
+input{
+    width: 75%;
+    font-size: large;
+    text-align: center;
+}
+
+select{
+    width: 100%;
+    height: 50px;
+    font-size: medium;
+    text-align: center;
+}
+
+.formula{
+    margin-left: 40px;
+    text-align: justify;
+}
+
+.button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#convert-button{
+    width: 200px;
+    height: auto;
+}
